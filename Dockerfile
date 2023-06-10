@@ -7,7 +7,7 @@
 # docker build -t oss2018 . 
 # docker run -it -p 1313:1313 -v $(pwd):/opt/oss2018 oss2018:latest 
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210416
 MAINTAINER Mohammed A. Imran <imran.mohammed@owasp.org>
 
 ENV HUGO_VERSION="0.36.1"
